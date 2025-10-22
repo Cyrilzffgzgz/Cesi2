@@ -22,6 +22,10 @@ Ad + DNS + DHCP
 Compte utilisateur+groupe+unité d'organisation
 ![alt text](image-4.png)
 
+powershell
+
+![alt text](image-6.png)
+
 
 
 

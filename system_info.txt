@@ -1,0 +1,8 @@
+﻿===== RAPPORT SYSTEME =====
+MAchine : NR-119-11
+Utilisateur : 2668081
+OS : Microsoft Windows 11 Professionnel
+Processeur : 12th Gen Intel(R) Core(TM) i7-12700
+RAM (Go) : $[math]::Round(15.6960372924805,2))
+Date : 22:15:2025 03/10
+========

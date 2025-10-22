@@ -17,3 +17,4 @@ Date : $Date
 "@
 
 $Rapport | Out-File "system_info.txt" -Encoding UTF8
+Write-Host "rapport généré : system_info.txt" -foregroundcolor green

@@ -46,3 +46,13 @@ partage fichier
 
 ![alt text](image-11.png)
 
+
+Bureau à distance :
+
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
+
+

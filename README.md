@@ -9,7 +9,7 @@ server ad carte reseau
 
 ![alt text](<Capture d'écran 2025-10-22 143410.png>)
 
-Ad + DNS + DHCP
+Ad + DNS
 
 ![alt text](image.png)
 
@@ -18,6 +18,12 @@ Ad + DNS + DHCP
 ![alt text](image-18.png)
 
 ![alt text](image-19.png)
+
+![alt text](image-26.png)
+
+![alt text](image-27.png)
+
+![alt text](image-28.png)
 
 Zone primaire DNS
 
@@ -40,13 +46,56 @@ Zone primaire DNS
 
 ![alt text](image-25.png)
 
+Questions :
+
+- Quelle est la différence entre un enregistrement A et un CNAME ?
+
+Enregistrement A : associe un nom de domaine directement à une adresse IP.
+Enregistrement CNAME : crée un alias pointant vers un autre nom de domaine déjà existant (qui lui a un A record).
+
+- Quelle commande permet de vérifier la liste des zones DNS existantes ?
+
+C'est la commande: Get-DnsServerZone
+
+- Pourquoi utiliser un redirecteur dans un DNS d’entreprise ?
+
+- Pourquoi utiliser un redirecteur dans un DNS d’entreprise ?
+
+On utilise un redirecteur pour sécuriser, controller et améliorer les résolutions DNS extérieurs
+sans exposer le DNS interne.
 
 
-Réservation poste administratif
 
-![alt text](image-20.png)
+DHCP :
 
-![alt text](image-21.png)
+création de l'étendue :
+![alt text](image-29.png)
+
+![alt text](image-30.png)
+
+On utilise cette commande, pour avoir la liste des étendues :
+
+![alt text](image-31.png)
+
+Voici ce que ça donne:
+
+![alt text](image-32.png)
+
+On utilise après cette commmande pour voir le nom de domaine, le DNS et le Routeur :
+
+![alt text](image-33.png)
+
+Ce qui donne :
+
+![alt text](image-34.png)
+
+On utilise après cette commande pour créer la réservation :
+
+![alt text](image-35.png)
+
+On utilise après cette commande pour bien vérifier la réservation :
+
+![alt text](image-36.png)
 
 Questions :
 - Quelle est la différence entre une adresse IP dynamique et une réservation DHCP ?
@@ -54,14 +103,27 @@ Questions :
 L'adresse IP dynamique est automatiquement distribué sur la plage d'IP donné par le DHCP et change à chaque connexions
 alors que une réservation DHCP se voit affecter une adresse IP fixe grâce à son adresse MAC.
 
-- Quelle commande permet de vérifier la liste des zones DNS existantes ?
+- Que se passe-t-il si deux serveurs DHCP répondent sur le même réseau ?
 
-C'est la commande Get-DnsServerZone.
+Les clients peuvent recevoir des adresses IP de l’un ou l’autre serveur, ce qui peut provoquer des conflits d’adresses ou des problèmes de connectivité.
 
-- Pourquoi utiliser un redirecteur dans un DNS d’entreprise ?
+- Quelle commande PowerShell permet de visualiser les baux DHCP actifs ?
 
-On utilise un redirecteur pour sécuriser, controller et améliorer les résolutions DNS extérieurs
-sans exposer le DNS interne.
+C'est la commande : Get-DhcpServerv4Lease -ScopeId <ScopeId>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Compte utilisateur+groupe+unité d'organisation
@@ -74,14 +136,6 @@ Compte utilisateur+groupe+unité d'organisation
 computer sur ad
 
 ![alt text](image-12.png)
-
-powershell
-
-![alt text](image-6.png)
-
-![alt text](image-7.png)
-
-![alt text](image-8.png)
 
 partage fichier
 

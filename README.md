@@ -23,6 +23,8 @@ Réservation poste administratif
 
 ![alt text](image-20.png)
 
+![alt text](image-21.png)
+
 Compte utilisateur+groupe+unité d'organisation
 ![alt text](image-4.png)
 

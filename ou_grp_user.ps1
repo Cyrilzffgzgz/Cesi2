@@ -3,7 +3,7 @@ Import-Module ActiveDirectory
 
 # Variables
 $ouName = "TestOU"
-$ouPath = "DC=cesi87,DC=local"          # Remplacez par votre domaine
+$ouPath = "DC=Cyril,DC=local"          # Remplacez par votre domaine
 $ouFullPath = "OU=$ouName,$ouPath"
 
 $groupName = "GRP_4"

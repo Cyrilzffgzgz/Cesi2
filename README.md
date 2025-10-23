@@ -21,7 +21,24 @@ Ad + DNS + DHCP
 
 Zone primaire DNS
 
+1. Créez une zone primaire DNS nommée entreprisexyz.local.
+
 ![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+2. Ajoutez un enregistrement hôte (A) pour le serveur principal :
+ - Nom : srv-dc1
+ - IP : 192.168.147.10
+
+
+![alt text](image-24.png)
+
+3. Configurez un redirecteur DNS vers les serveurs publics de Google :
+ - 8.8.8.8
+ - 8.8.4.4
+
+![alt text](image-25.png)
 
 
 

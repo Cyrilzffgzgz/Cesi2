@@ -19,6 +19,10 @@ Ad + DNS + DHCP
 
 ![alt text](image-19.png)
 
+Réservation poste administratif
+
+![alt text](image-20.png)
+
 Compte utilisateur+groupe+unité d'organisation
 ![alt text](image-4.png)
 

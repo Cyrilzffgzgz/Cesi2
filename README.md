@@ -1,11 +1,9 @@
-# Cesi2
-Tp Cesi
-
-powershell
+# CESI 2
+#Tp Cesi powershell
 
 ![alt text](image-5.png)
 
-server ad carte reseau
+Server ad carte reseau
 
 ![alt text](<Capture d'écran 2025-10-22 143410.png>)
 
@@ -18,11 +16,11 @@ Compte utilisateur+groupe+unité d'organisation
 
 ![alt text](image-14.png)
 
-computer sur ad
+Computer sur ad
 
 ![alt text](image-12.png)
 
-partage fichier
+Partage fichier
 
 ![alt text](image-9.png)
 
@@ -114,7 +112,7 @@ On utilise après cette commmande pour voir le nom de domaine, le DNS et le Rout
 
 ![alt text](image-33.png)
 
-Ce qui donne :
+Ce que ça donne :
 
 ![alt text](image-34.png)
 
@@ -189,6 +187,14 @@ et on vérifie après que le certificat à bien été fait :
 ![alt text](image-47.png)
 
 On essaye ensuite de se connecter sur le site pour être bien sûr que la sécurisation a été faîte :
+
+![alt text](image-48.png)
+
+On a bien accès aux ressources avec la calculatrice et le bloc note :
+
+![alt text](image-49.png)
+
+
 
 
 

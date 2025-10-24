@@ -11,6 +11,35 @@ server ad carte reseau
 
 Ad + DNS
 
+Compte utilisateur+groupe+unité d'organisation
+![alt text](image-4.png)
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+computer sur ad
+
+![alt text](image-12.png)
+
+partage fichier
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+
+Bureau à distance :
+
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
+
+
 ![alt text](image.png)
 
 ![alt text](image-1.png)
@@ -178,32 +207,5 @@ On essaye ensuite de se connecter sur le site pour être bien sûr que la sécur
 
 
 
-Compte utilisateur+groupe+unité d'organisation
-![alt text](image-4.png)
-
-![alt text](image-13.png)
-
-![alt text](image-14.png)
-
-computer sur ad
-
-![alt text](image-12.png)
-
-partage fichier
-
-![alt text](image-9.png)
-
-![alt text](image-10.png)
-
-![alt text](image-11.png)
-
-
-Bureau à distance :
-
-![alt text](image-15.png)
-
-![alt text](image-16.png)
-
-![alt text](image-17.png)
 
 

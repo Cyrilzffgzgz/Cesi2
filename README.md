@@ -1,9 +1,17 @@
 # CESI 2
 #Tp Cesi powershell
 
+Prérequis :
+
+ - Une machine virtuelle (Windows Server..., Une VM Serveur et Cliente)
+
+ - Powershell
+
+ - Visual Studio Code
+
 ![alt text](image-5.png)
 
-Server ad carte reseau
+Serveur ad carte reseau
 
 ![alt text](<Capture d'écran 2025-10-22 143410.png>)
 
@@ -28,29 +36,6 @@ Partage fichier
 
 ![alt text](image-11.png)
 
-
-Bureau à distance :
-
-![alt text](image-15.png)
-
-![alt text](image-16.png)
-
-![alt text](image-17.png)
-
-
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-18.png)
-
-![alt text](image-19.png)
-
-![alt text](image-26.png)
-
-![alt text](image-27.png)
-
-![alt text](image-28.png)
 
 Zone primaire DNS
 

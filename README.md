@@ -111,6 +111,58 @@ Les clients peuvent recevoir des adresses IP de l’un ou l’autre serveur, ce 
 
 C'est la commande : Get-DhcpServerv4Lease -ScopeId <ScopeId>
 
+Bureau à distance :
+
+On utilise d'abord cette commande pour vérifier que tout les rôles sont disponibles :
+
+![alt text](image-37.png)
+
+On utlise après cette commande pour installer tout les rôles nécessaires pour le service Bureau à distance et mettre restart à la fin pour redémarrer automatiquement si besoin :
+
+- Install-WindowsFeature -Name RDS-RD-Server, RDS-Web-Access, RDS-Connection-Broker -IncludeAllSubFeature -IncludeManagementTools -Restart
+
+Après le redémarrage on vérifie que tout les rôles soient bien installés:
+
+![alt text](image-38.png)
+
+On utilise après cette commande pour le FQDN :
+
+![alt text](image-39.png)
+
+Une fois le FQDN obtenu on l'utilise dans la commande suivante pour effectuer le déploiement :
+
+![alt text](image-40.png)
+
+On utilise après cette commande pour vérifier que le déploimenet à été effectué :
+
+![alt text](image-41.png)
+
+![alt text](image-42.png)
+
+Tout à été bien installé pour le bloc note : 
+
+![alt text](image-43.png)
+
+Pareil pour la calculatrice :
+
+![alt text](image-44.png)
+
+On crée après le certificat auto signé : 
+
+![alt text](image-45.png)
+
+On sécurise après le certificat : 
+
+![alt text](image-46.png)
+
+et on vérifie après que le certificat à bien été fait : 
+
+![alt text](image-47.png)
+
+On essaye ensuite de se connecter sur le site pour être bien sûr que la sécurisation a été faîte :
+
+
+
 
 
 
